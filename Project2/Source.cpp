@@ -3,6 +3,8 @@ using namespace std;
 
 //#include "Singleton.h"
 //#include "Strategy.h"
+#include "AbstractFactory.h"
+
 
 int main() 
 {

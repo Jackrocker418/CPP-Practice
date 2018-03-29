@@ -98,18 +98,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbPhoneFactory.cpp" />
+    <ClCompile Include="AbstractFactory.cpp" />
+    <ClCompile Include="ConcPhoneFactory.cpp" />
+    <ClCompile Include="DumbPhone.cpp" />
+    <ClCompile Include="PhoneInterface.cpp" />
     <ClCompile Include="project2\Mob.cpp" />
     <ClCompile Include="project2\Source.cpp" />
     <ClCompile Include="project2\Strategy.cpp" />
     <ClCompile Include="project2\StringToDouble.cpp" />
     <ClCompile Include="project2\Weapons.cpp" />
+    <ClCompile Include="SmartPhone.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbPhoneFactory.h" />
+    <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="ConcPhoneFactory.h" />
+    <ClInclude Include="DumbPhone.h" />
+    <ClInclude Include="PhoneInterface.h" />
     <ClInclude Include="project2\Mob.h" />
     <ClInclude Include="project2\Singleton.h" />
     <ClInclude Include="project2\Strategy.h" />
     <ClInclude Include="project2\StringToDouble.h" />
     <ClInclude Include="project2\Weapons.h" />
+    <ClInclude Include="SmartPhone.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
