@@ -5,7 +5,6 @@ using namespace std;
 //#include "Strategy.h"
 #include "AbstractFactory.h"
 
-
 int main() 
 {
 	//StrategyExample example;
