@@ -10,7 +10,11 @@ using namespace std;
 class Singleton {
 
 public:
-	static Singleton* getInstance() {}
+	static Singleton* getInstance();
+
+	void dostuff() {
+		cout << "I'm a Singleton" << endl;
+	}
 
 private:
 	Singleton() {}

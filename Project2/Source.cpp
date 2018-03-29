@@ -1,14 +1,17 @@
-using namespace std;
 #include <iostream>
+#include <cstdlib>
 
-//#include "Singleton.h"
-//#include "Strategy.h"
-#include "AbstractFactory.h"
+//#include "Singleton/Singleton.h"
+#include "Strategy/Strategy.h"
+//#include "Abstract Factory/AbstractFactory.h"
 
 int main() 
 {
-	//StrategyExample example;
+	//AbstractFactory example;
 	//example.startExample();
+
+	StrategyExample example;
+	example.startExample();
 
 	getchar();
 	return 0;

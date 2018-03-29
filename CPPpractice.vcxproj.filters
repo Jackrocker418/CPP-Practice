@@ -15,72 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="project2\Mob.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="project2\Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="project2\Strategy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="project2\StringToDouble.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="project2\Weapons.cpp">
+    <ClCompile Include="Project2\Strategy\Mob.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AbstractFactory.cpp">
+    <ClCompile Include="Project2\Strategy\Strategy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SmartPhone.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DumbPhone.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PhoneInterface.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AbPhoneFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ConcPhoneFactory.cpp">
+    <ClCompile Include="Project2\Strategy\Weapons.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="project2\Mob.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="project2\Singleton.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="project2\Strategy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="project2\StringToDouble.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="project2\Weapons.h">
+    <ClInclude Include="Project2\Strategy\Mob.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AbstractFactory.h">
+    <ClInclude Include="Project2\Strategy\Strategy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SmartPhone.h">
+    <ClInclude Include="Project2\Strategy\Weapons.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DumbPhone.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PhoneInterface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AbPhoneFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ConcPhoneFactory.h">
+    <ClInclude Include="Project2\Singleton\Singleton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
